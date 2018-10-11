@@ -28,7 +28,7 @@ outdoorRelativeHumidity = []
 dayOfWeek = []
 
 
-with open('NEW-DATA-1.T15.txt', 'r') as dataFile:
+with open('../Data/NEW-DATA-1.T15.txt', 'r') as dataFile:
     for line in dataFile:
         columns = line.split()
         dates.append(columns[0])

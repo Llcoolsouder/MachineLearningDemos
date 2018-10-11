@@ -3,7 +3,7 @@ import pandas
 from sklearn.naive_bayes import GaussianNB
 
 # 1=Setosa, 2=Versicolour, 3=Virginica
-data = pandas.read_csv('Iris.csv')
+data = pandas.read_csv('../Data/Iris.csv')
 numRows = 150
 
 trainingData = data.iloc[0:105]

@@ -5,7 +5,7 @@ from sklearn.model_selection import KFold
 from sklearn.neighbors import KNeighborsClassifier
 
 # 1=Setosa, 2=Versicolour, 3=Virginica
-data = pandas.read_csv('Iris.csv')
+data = pandas.read_csv('../Data/Iris.csv')
 numRows = data.values.shape[0]
 labels = data.iloc[:, 4].values
 parameters = data.iloc[:, 0:3].values
