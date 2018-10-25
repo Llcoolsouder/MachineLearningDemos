@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 
 def h(theta, X):
     # [1x3] * [3xN] = [1xN]
-    # return 1 / (1 + np.exp(-np.transpose(theta) * X))
     return 1/(1 + np.exp(-np.transpose(theta) * X))
 
 def logistic_regression(X_train, Y_train, max_iterations=25000, a=0.0001, stopping_cond=0.01):
