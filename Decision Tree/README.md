@@ -16,6 +16,6 @@ The results of the decision tree classifiers are just *barely* better than a coi
 | Random Forest | 20 | 55.6% |
 | Random Forest  | 100 | 58.0% |
 
-This could be due to the fact that this algorithm is not suited to this data type or there just may not be sufficient data. It is entirely possible that there is simply not enough data.  
-For instance, the outcome of the game definitely doesn't depend solely on the team compositions and game modes.  For more accurate predictions, one might the skill ranking of each player in the data.  
+This could be due to the fact that this algorithm is not suited to this data type or there just may not be sufficient data.
+For instance, the outcome of the game definitely doesn't depend solely on the team compositions and game modes.  For more accurate predictions, one might include the skill rating of each player in the data.  
 It is also possible that this architecure is not well suited to a sparse dataset with many features and only two classes.
