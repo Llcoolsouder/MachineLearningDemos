@@ -12,6 +12,6 @@ Most algorithms have been implemented once by hand for a simple, randomly genera
 * K Nearest Neighbors
 * Perceptron
 * Feed Forward Neural Network
-* Support Vector Machine *(coming soon)*
+* Support Vector Machine
 
 All code is written and tested by Lonnie L. Souder II
